@@ -19,3 +19,5 @@
         @inertia
     </body>
 </html>
+
+

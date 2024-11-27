@@ -65,10 +65,20 @@ const logout = () => {
                                 class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex"
                             >
                                 <NavLink
-                                    :href="route('maisons')"
-                                    :active="route().current('maisons')"
+                                    :href="route('maisons.index')"
+                                    :active="route().current('maisons.index')"
                                 >
                                     Maison
+                                </NavLink>
+                            </div>
+                            <div
+                                class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex"
+                            >
+                                <NavLink
+                                    :href="route('maisons.create')"
+                                    :active="route().current('maisons.create')"
+                                >
+                                    Créer
                                 </NavLink>
                             </div>
                         </div>
